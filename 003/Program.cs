@@ -2,4 +2,7 @@
 // 4 -> да
 // -3 -> нет
 // 7 -> нет
-Console.WriteLine("Hello, World!");
+Console.Write("Введите число ");
+int firstnumber = Convert.ToInt32(Console.ReadLine());
+if ((firstnumber % 2) == 0) Console.Write($"Число {firstnumber} чётное");
+    else Console.Write($"Число {firstnumber} нечётное");
